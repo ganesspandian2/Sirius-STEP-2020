@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe Game</title>
+	<style type="text/css">
+	body{
+		background: #b3b309d7;
+	}
+
+	h1 {
+		text-align: center;
+		color: blue;
+	}
+
+	table {
+		margin: auto;
+	}
+
+	td {
+		width: 100px;
+		height: 100px;
+	}
+
+	td:hover {
+		border: 1px solid grey;
+		border-color: red;
+		border-width: 5px;
+	}
+
+	.vertical {
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+		border-width: 5px;
+	}
+
+	.horizontal {
+		border-top: 1px solid blue;
+		border-bottom: 1px solid blue;
+		border-width: 5px;
+	}
+
+	</style>
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<table>
+	<tr>
+		<td></td>
+		<td class="vertical"></td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td class="horizontal"></td>
+		<td class="vertical horizontal"></td>
+		<td class="horizontal"></td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td class="vertical"></td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+</html>
