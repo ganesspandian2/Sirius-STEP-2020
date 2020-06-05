@@ -1,0 +1,10 @@
+body{
+    background: green;
+}
+
+h1{
+    color: orangered;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
