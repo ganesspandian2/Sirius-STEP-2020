@@ -1,0 +1,17 @@
+body{
+	background-color: aqua;
+}
+
+.winner {
+	color:green;
+}
+
+.btn-group{
+	padding-top: 2%;
+}
+
+div{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5%;
+}
