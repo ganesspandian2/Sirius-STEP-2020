@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<div style="width: 1000px;">
+    <h1 style="text-align: center;">RESULTS PAGE</h1>
+    <ul class="list-group">
+        <% data["Search"].forEach(function(movie){ %>
+        <li class="list-group-item"><strong><%=movie["Title"]%></strong> - <%= movie["Year"] %></li>
+        <%})%>
+    </ul>
+
+    <a href="/"><input type="button" value="Search Again" style="text-align: center;" class="btn btn-secondary"></a>
+</div>    
