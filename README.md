@@ -8,5 +8,5 @@
 
 ![Annotation 2020-06-11 171257](https://user-images.githubusercontent.com/50516206/84381551-d74ab480-ac06-11ea-805e-8b54dc47f634.jpg)
 
-![Annotation 2020-06-11 213443](https://user-images.githubusercontent.com/50516206/84410909-c1031f80-ac2b-11ea-8a2a-40d404f357c6.jpg)
+
 
